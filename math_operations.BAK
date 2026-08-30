@@ -5,16 +5,16 @@ int main()
     float A,B,C,D,E,F;
 
     printf("Enter 2 numbers: ");
-    scanf("%d %d", &A, &A);
+    scanf("%f %f", &A, &B);
 
     C = A + B;
     D = A - B;
     E = A * B;
     F = (float)A / B;
 
-    printf("Sum = %d\n", C);
-    printf("Difference = %d\n", D);
-    printf("Multiplication = %d\n", E);
+    printf("Sum = %f\n", C);
+    printf("Difference = %f\n", D);
+    printf("Multiplication = %f\n", E);
     printf("Quotiont = %f\n", F);
 
     printf("Vyom Tayal S2-72");
