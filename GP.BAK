@@ -1,0 +1,24 @@
+#include<stdio.h>
+int main()
+{
+ int a,r,n,i;
+ float c_t, sum=0;
+ printf("Enter (a): ");
+ scanf("%d", &a);
+
+ printf("enter common ratio (r): ");
+ scanf("%d", &r);
+
+ printf("ebter the number of terms");
+ scanf("%d", &n);
+
+ c_t=a;
+
+ for(i=1;i<=n;i++)
+ {
+ sum+=c_t;
+ c_t=c_t*r;
+ }
+ printf("the sum of the gp is: %f", sum);
+ return 0;
+ }
