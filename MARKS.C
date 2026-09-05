@@ -21,7 +21,8 @@ int main()
  printf("\nfailed");
  }
  else{
- printf("invalid");
+ printf("\ninvalid");
  }
+ printf("\nvyom tayal S2-72");
  return 0;
 }
