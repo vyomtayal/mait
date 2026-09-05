@@ -9,6 +9,6 @@ int main()
   f=f*i;
  }
  printf("%d\n", f);
- printf("Vyom Tayal,S2-72");
+ printf("Vyom Tayal,S3-72");
  return 0;
 }
