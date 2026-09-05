@@ -20,5 +20,6 @@ int main()
  c_t=c_t*r;
  }
  printf("the sum of the gp is: %f", sum);
+ printf("Vyom Tayal,S3-72");
  return 0;
- }
+}
