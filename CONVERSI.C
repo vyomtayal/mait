@@ -1,6 +1,8 @@
 #include<stdio.h>
+#include<conio.h>
 int main(){
  int n,digit,divisor=1,i;
+ clrscr();
  printf("Enter the number: ");
  scanf("%d",&n);
  for(i=n;i>=10;i=i/10)
@@ -36,5 +38,6 @@ int main(){
    }
  }
  printf("\nVyom Tayal,S3-72");
+ getch();
  return 0;
 }
